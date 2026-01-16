@@ -1,41 +1,31 @@
 #include <stdio.h>
-#include <windows.h>
 
-#define SIZE 11
+#define SIZE 100000
 
 int main()
 {
-	
-	const char* dialog[SIZE];
 
-	dialog[0] = "탐정 : 안녕하세요. 무슨일로 오셨나요?";
-	dialog[1] = "의뢰인 : 제 두바이 쫀득쿠키가 사라졌습니다.";
-	dialog[2] = "탐정 : 잃어버린 장소와 시간을 말씀해주십시오";
-	dialog[3] = "의뢰인 : 이번주 월요일 9시 30분쯤 회사 회의실에서 회의를 한 후 사라졌습니다.";
-	dialog[4] = "탐정 : 회의 시간에 특별한 일이 있었나요";
-	dialog[5] = "의뢰인 : 회의가 끝난 후 잠시 화장실을 다녀온 후 회의실에 가보니 두쫀쿠가 사라져있었습니다.";
-	dialog[6] = "탐정 : 의심가는 사람은 없었나요";
-	dialog[7] = "의뢰인 : 부장님이 당일 초콜릿이 먹고싶단 말을 했습니다.\n 또 회의가 끝난 후 주임님의 입 주변에 갈색의 음식물이 묻어있었습니다.";
-	dialog[8] = "탐정 : 또 다른 단서는 없었나요?";
-	dialog[9] = "의뢰인 : 출근 시간 인턴이 카페음료를 사들고왔고 부장님은 딸기라떼, 주임님은 아이스 아메리카노를 선택하셨습니다.";
-	dialog[10] = "탐정 : 이제 알겠군요. 범인은.....";
+#pragma region 파일 입출력
+{
+	#pragma region 파일 읽기
+
+	#pragma endregion 
+
+    #pragma region 파일 쓰기
+		
 
 
-	// 0x0000 : 이전에 누른 적이 없고 호출 시점에도 눌려있지 않은 상태
-	
-	// 0x0001 : 이전에 누른 적이 있고 호출 시점에는 눌려있지 않은 상태
-	
-	// 0x8000 : 이전에 누른 적이 없고 호출 시점에는 눌려있는 상태
 
-	// 0x8001 : 이전에 누른 적이 있고 호출 시점에도 눌려있는 상태
 
-	while (1)
-	{
-		if (GetAsyncKeyState(VK_SPACE & 0x0001))
-		{
-			for(int i; i )
-		}
+    #pragma endregion
+
+
+
+
+
 	}
+#pragma endregion
 
+	
 	return 0;
 }
