@@ -3,14 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BB65F1D6-5A11-47CC-A233-ACD1B4E061DC}|..\\class3th (input\u0026output)\\class3th (input\u0026output).vcxproj|C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\class3th (input\u0026output)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D09CD33D-A423-461C-BBDE-BAE7AC8B77AF}|Project1.vcxproj|C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\Project1\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D09CD33D-A423-461C-BBDE-BAE7AC8B77AF}|Project1.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D504DEBA-B25E-4931-A5A1-0B93C9380C6A}|..\\Class2th (time)\\Class2th (time).vcxproj|C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\Class2th (time)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1D7AF822-9E1A-4ADA-BC06-D2F567468040}|..\\class1th (input system)\\class1th (input system).vcxproj|C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\class1th (input system)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D7AF822-9E1A-4ADA-BC06-D2F567468040}|..\\class1th (input system)\\class1th (input system).vcxproj|C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\class1th (input system)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D504DEBA-B25E-4931-A5A1-0B93C9380C6A}|..\\Class2th (time)\\Class2th (time).vcxproj|C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\Class2th (time)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +23,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\class3th (input\u0026output)\\source.c",
+              "RelativeDocumentMoniker": "..\\class3th (input\u0026output)\\source.c",
+              "ToolTip": "C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\class3th (input\u0026output)\\source.c",
+              "RelativeToolTip": "..\\class3th (input\u0026output)\\source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-19T11:05:00.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\Class2th (time)\\source.c",
               "RelativeDocumentMoniker": "..\\Class2th (time)\\source.c",
@@ -32,8 +48,7 @@
               "RelativeToolTip": "..\\Class2th (time)\\source.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-16T10:37:31.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T10:37:31.463Z"
             },
             {
               "$type": "Document",
@@ -43,20 +58,20 @@
               "RelativeDocumentMoniker": "..\\class1th (input system)\\source.c",
               "ToolTip": "C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\class1th (input system)\\source.c",
               "RelativeToolTip": "..\\class1th (input system)\\source.c",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-16T10:36:14.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\Project1\\source.c",
               "RelativeDocumentMoniker": "source.c",
               "ToolTip": "C:\\Users\\leeju\\OneDrive\\Desktop\\c_class2\\Project1\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-12T11:12:47.778Z",
               "EditorCaption": ""
