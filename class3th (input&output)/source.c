@@ -1,47 +1,31 @@
 #include <stdio.h>
-#include <windows.h>
 
-enum State
-{
-    IDLE = 99,
-    ATTACK,
-    DIE
-
-    // 열거형은 값을 따로 설정할 수 있으며, 따로 설정된 다음의 값은 그 전의 값에서
-    // 하나 증가된 값으로 설정됩니다.
-};
-
-void set(enum State state)
-{
-    switch (state)
-    {
-    case IDLE: printf("Idle\n");
-        break;
-    case ATTACK: printf("Attack\n");
-        break;
-    case DIE: printf("Die\n");
-        break;
-    default: printf("Exception\n");
-        break;
-    }
-}
+#define SIZE 100000
 
 int main()
 {
-#pragma region 열거형
-    // 관련된 상수의 값을 이름으로 정의한 집합의 자료형입니다.
 
-    // enum State state;
-    // 
-    // scanf_s("%d", &state);
-    // 
-    // set(state);
+#pragma region 파일 입출력
+	{
+#pragma region 파일 읽기
+
+#pragma endregion 
+
+#pragma region 파일 쓰기
+
+
+
+
 
 #pragma endregion
 
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
 
-    printf("color system");
 
-    return 0;
+
+
+	}
+#pragma endregion
+
+
+	return 0;
 }
