@@ -3,50 +3,45 @@
 
 enum State
 {
-	IDLE,
-	ATTACK,
-	DIE
+    IDLE = 99,
+    ATTACK,
+    DIE
 
-	// 열거형은 값을 따로 설정할 수 있으며, 따로 설정된 다음의 값은 그 전의 값에서
-	// 하나 증가된 값으로 설정
+    // 열거형은 값을 따로 설정할 수 있으며, 따로 설정된 다음의 값은 그 전의 값에서
+    // 하나 증가된 값으로 설정됩니다.
 };
 
 void set(enum State state)
 {
-  {
-	switch (state)
-	{
-	
-			case IDLE: printf("idle");
-				break;
-			case ATTACK: printf("ATTACK");
-				break;
-			case DIE: printf("DIE");
-				break;
-			default: printf("exception\n");
-				break;
-	}
-  }
+    switch (state)
+    {
+    case IDLE: printf("Idle\n");
+        break;
+    case ATTACK: printf("Attack\n");
+        break;
+    case DIE: printf("Die\n");
+        break;
+    default: printf("Exception\n");
+        break;
+    }
 }
-
 
 int main()
 {
 #pragma region 열거형
-	// 관련된 상수의 값을 이름으로 정의한 유한한 집합으로 정의한 자료형.
+    // 관련된 상수의 값을 이름으로 정의한 집합의 자료형입니다.
 
-	// enum State state;
-	// 
-	// state = IDLE;
-	// 
-	// scanf_s("%d", &state);
-	// 
-	// select(state);
+    // enum State state;
+    // 
+    // scanf_s("%d", &state);
+    // 
+    // set(state);
+
 #pragma endregion
 
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
 
-	printf("color system");
+    printf("color system");
 
-	return 0;
+    return 0;
 }
